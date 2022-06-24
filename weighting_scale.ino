@@ -5,8 +5,8 @@
 #include <HX711.h>  //Weight Sensor library
 #include <Ticker.h>  //Time loop library
 
-#define HX711_dout  D5  //esp8266 >> HX711 sck pin
-#define HX711_sck   D6  //esp8266 >> HX711 dout pin
+#define HX711_dout  D5  //esp8266 >> HX711 dout pin
+#define HX711_sck   D6  //esp8266 >> HX711 sck pin
 
 HX711 scale;
 Ticker timer;
